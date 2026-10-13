@@ -1,0 +1,17 @@
+{
+  "name": "sclabel-engineering-showcase",
+  "version": "1.0.0",
+  "description": "Independent, executable engineering examples derived from lessons learned while building a private order-operations platform.",
+  "type": "module",
+  "private": false,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "demo": "node demo/run-demo.js",
+    "test": "node --test tests/transaction-ledger.test.js tests/data-import-pipeline.test.js tests/job-queue.test.js tests/api-integration.test.js tests/authentication.test.js",
+    "security:scan": "node scripts/security-scan.js",
+    "verify": "npm run test && npm run demo && npm run security:scan"
+  }
+}

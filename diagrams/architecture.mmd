@@ -1,0 +1,12 @@
+flowchart LR
+  CLIENT[Client application] --> API[Modular REST API]
+  API --> AUTH[Authentication lifecycle]
+  API --> IMPORT[Import pipeline]
+  API --> LEDGER[Transactional ledger]
+  AUTH --> DB[(Relational database)]
+  IMPORT --> DB
+  LEDGER --> DB
+  IMPORT --> CACHE[(Cache and queue)]
+  WORKER[Background worker] --> CACHE
+  WORKER --> ADAPTER[External API adapter]
+  WORKER --> DB

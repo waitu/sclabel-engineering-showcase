@@ -1,0 +1,14 @@
+node_modules/
+coverage/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+*.sql.gz
+*.dump
+*.bak
+*.zip
+*.pdf
+.DS_Store
+Thumbs.db
