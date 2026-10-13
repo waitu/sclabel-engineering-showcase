@@ -16,7 +16,11 @@ The original application supports authenticated users and administrators managin
 
 ## 3. My role and responsibilities
 
-I was the primary developer of the original project. My work covered:
+> **My Role:** Sole Full-stack Developer of the original company project.
+>
+> **About this repository:** This is a separate engineering showcase demonstrating the technical concepts and approaches used in the original project. It is intended for portfolio and educational purposes, using synthetic data and independently implemented examples.
+
+My work covered:
 
 - React routing, protected/admin views, query caching, import and order-management interfaces.
 - NestJS modules, REST controllers, validation DTOs, guards, services, and background tasks.
