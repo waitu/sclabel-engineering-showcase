@@ -1,6 +1,6 @@
 # License notice
 
-No open-source license has been selected for this draft. Copyright remains with
+No open-source license has been selected for this repository. Copyright remains with
 the author by default. Add an explicit license only after confirming that every
 file is owned by the author and approved for public distribution.
 

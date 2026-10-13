@@ -16,7 +16,7 @@ These controls are evidence from source, not a penetration-test result.
 
 ## Showcase threat model
 
-| Threat | Control in this draft |
+| Threat | Control in this showcase |
 | --- | --- |
 | Publishing a real secret | Placeholder-only `.env.example`; repository scanner |
 | Leaking customer or order data | Synthetic fixtures only; no screenshots or exports |
@@ -27,15 +27,12 @@ These controls are evidence from source, not a penetration-test result.
 | Refresh-token theft/reuse | Token-family revocation and audit event |
 | Misleading capability claim | Explicit limitations and private/public distinction |
 
-## Pre-publication checklist
+## Release integrity checks
 
-1. Run `npm run verify`.
-2. Confirm no `.git` directory was copied from the private repository.
-3. Review every screenshot manually; this draft intentionally contains none.
-4. Confirm the project name and original-system description are approved for public use.
-5. Select a license only after confirming ownership of every file.
-6. Create a new empty GitHub repository; do not fork the private repository.
-7. Review staged Git changes with a secret scanner before the first push.
+1. Run `npm run verify` before each release.
+2. Review every future screenshot manually; this showcase intentionally contains none.
+3. Select a license only after confirming ownership of every file.
+4. Review staged Git changes with the repository security scanner before each push.
 
 ## Scanner behavior
 

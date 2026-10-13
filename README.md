@@ -6,7 +6,7 @@ An evidence-oriented portfolio of independently rewritten backend and data-proce
 
 ## 1. Project overview
 
-The private system coordinates order intake, credit-based billing, status workflows, administrative review, scheduled processing, and external status synchronization. This public draft focuses on the technical problems behind that work: consistency under concurrency, safe bulk ingestion, reliable background work, defensive API clients, and session security.
+The private system coordinates order intake, credit-based billing, status workflows, administrative review, scheduled processing, and external status synchronization. This repository focuses on the technical problems behind that work: consistency under concurrency, safe bulk ingestion, reliable background work, defensive API clients, and session security.
 
 Repository inspection confirms a full-stack TypeScript system with React, NestJS, PostgreSQL/TypeORM, Redis, Docker Compose, and Nginx. It contains 21 NestJS modules, 20 controllers, 100 decorated HTTP handlers, 18 TypeORM entities, 27 migrations, and 24 backend test files. These are codebase counts, not usage or business metrics.
 
@@ -16,7 +16,7 @@ The original application supports authenticated users and administrators managin
 
 ## 3. My role and responsibilities
 
-The author identifies as the primary developer. Repository evidence supports hands-on responsibility across:
+I was the primary developer of the original project. My work covered:
 
 - React routing, protected/admin views, query caching, import and order-management interfaces.
 - NestJS modules, REST controllers, validation DTOs, guards, services, and background tasks.
@@ -161,4 +161,4 @@ The test suite verifies concurrent debit idempotency, insufficient-balance prote
 
 GitHub: [github.com/waitu](https://github.com/waitu)
 
-Before publishing, review [LICENSE-NOTICE.md](LICENSE-NOTICE.md) and confirm ownership, project naming, and whether screenshots may be added.
+See [LICENSE-NOTICE.md](LICENSE-NOTICE.md) for the repository's current licensing and ownership boundaries.
